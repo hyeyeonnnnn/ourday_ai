@@ -1,0 +1,119 @@
+app:
+  name: "OURDAY.AI"
+  slogan: "RELATIONSHIP AI"
+  welcome: "안녕하세요! 👋"
+  greeting: "오늘도 소중한 하루를 기록해보세요"
+  copyright: "From OURDAY.AI"
+
+layout:
+  menu:
+    dashboard: "대시보드"
+    timeline: "타임라인"
+    question: "오늘의 질문"
+    chat: "AI 질의"
+    letter: "편지 생성"
+    profile: "프로필"
+  profile:
+    name: "우리 커플"
+    since: "Since 2024.01.14"
+
+dashboard:
+  next_anniversary: "Coming Up Next"
+  days_left: "일 남음"
+  emotion_weather:
+    title: "🌈 우리의 감정 날씨"
+    default_desc: "서로에 대한 사랑이 뜨거운 날이에요!"
+  daily_question:
+    title: "Today's Question"
+    submit_btn: "답변 남기기"
+    waiting_msg: "파트너가 답변했습니다. 확인해보세요!"
+  quick_actions:
+    add_anniversary: "기념일 추가"
+    record_memory: "추억 기록"
+    write_letter: "편지 쓰기"
+    ai_question: "AI 질문"
+  gallery:
+    title: "최근 추억 📸"
+    subtitle: "우리가 함께한 소중한 순간들"
+    view_all: "전체보기"
+
+login:
+  welcome_back: "다시 오셨네요! 👋"
+  description: "계정에 로그인하여 추억을 확인하세요."
+  email_label: "이메일"
+  password_label: "비밀번호"
+  forgot_password: "비밀번호를 잊으셨나요?"
+  submit_btn: "로그인"
+  social_continue: "SNS 계정으로 계속하기"
+  no_account: "아직 계정이 없으신가요?"
+  signup_link: "회원가입"
+
+signup:
+  welcome: "환영합니다! 🎉"
+  description: "파트너와 함께 사용할 계정을 만들어주세요."
+  name_label: "이름"
+  nickname_label: "닉네임"
+  email_label: "이메일"
+  password_label: "비밀번호"
+  password_confirm_label: "비밀번호 확인"
+  terms_agree: "이용약관 및 개인정보처리방침에 동의합니다."
+  submit_btn: "가입하기"
+  has_account: "이미 계정이 있으신가요?"
+  login_link: "로그인"
+
+profile:
+  title: "마이페이지 ⚙️"
+  subtitle: "나와 우리의 연결 상태를 관리해요"
+  tabs:
+    profile: "내 프로필"
+    connection: "커플 연결"
+    settings: "알림 설정"
+  profile_edit:
+    title: "내 프로필 수정"
+    nickname_label: "닉네임"
+    dday_label: "기념일 (D-Day)"
+    save_btn: "저장하기"
+  connection:
+    title: "커플 연결 관리"
+    connected: "님과 꿀 떨어지는 중! 🍯"
+    disconnect: "연결 해제"
+    not_connected: "아직 연결된 파트너가 없어요 😢"
+    invite_msg: "사랑하는 사람을 초대해보세요!"
+    my_code_label: "나의 초대 코드"
+    copy_btn: "복사"
+    code_desc: "이 코드를 파트너에게 알려주세요!"
+    partner_code_label: "파트너 코드 입력"
+    connect_btn: "연결"
+  settings:
+    title: "알림 설정"
+    logout_confirm: "정말 로그아웃 하시겠습니까?"
+    logout_btn: "로그아웃"
+    items:
+      - "기념일 알림"
+      - "오늘의 질문 알림"
+      - "답변 도착 알림"
+      - "주간 리포트"
+
+question:
+  title: "오늘의 질문 💬"
+  subtitle: "매일 하나의 질문으로 서로의 마음을 알아가요"
+  blind_msg: "🔒 내가 답변을 남겨야 상대방의 답변을 볼 수 있어요 (Blind System)"
+  submit_btn: "답변 남기고 상대방 답변 보기 💌"
+  history_title: "지난 이야기 📚"
+  my_answer: "나의 답변"
+  partner_answer: "파트너의 답변"
+  partner_writing: "파트너가 아직 답변을 작성 중이에요"
+  nudging: "재촉하기 🔔"
+
+letter:
+  title: "기념일 편지 생성 💌"
+  subtitle: "AI가 당신의 마음을 담아 특별한 편지를 작성해드려요"
+  anniversary_select: "기념일 선택"
+  tone_select: "톤 선택"
+  generate_btn: "편지 생성하기"
+  generating: "AI가 편지를 쓰는 중..."
+  editor_title: "편지 편집"
+  copy_btn: "복사"
+  save_btn: "저장"
+  empty_state_title: "아직 편지가 없어요"
+  empty_state_desc: "좌측 패널에서 기념일과 톤을 선택하고 생성하기 버튼을 눌러보세요!"
