@@ -59,7 +59,7 @@ const Question = () => {
                 <p className="text-lg text-gray-500">{content.question.subtitle}</p>
             </header>
 
-            {/* Today's Question Card */}
+            {/* Today's Question Card  */}
             <section className="mb-16">
                 <div className="bg-white rounded-[2.5rem] shadow-card border border-primary-coral/20 overflow-hidden relative">
                     <div className="absolute top-0 inset-x-0 h-2 bg-gradient-to-r from-primary-coral to-accent-rose" />
