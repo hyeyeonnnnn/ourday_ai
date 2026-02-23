@@ -1,7 +1,7 @@
 app:
   name: "OURDAY.AI"
   slogan: "RELATIONSHIP AI"
-  welcome: "안녕하세요! 👋"
+  welcome: "안녕하세요! "
   greeting: "오늘도 소중한 하루를 기록해보세요"
   copyright: "From OURDAY.AI"
 
@@ -106,7 +106,7 @@ question:
   nudging: "재촉하기 🔔"
 
 letter:
-  title: "기념일 편지 생성 💌"
+  title: "기념일 편지 생성 "
   subtitle: "AI가 당신의 마음을 담아 특별한 편지를 작성해드려요"
   anniversary_select: "기념일 선택"
   tone_select: "톤 선택"

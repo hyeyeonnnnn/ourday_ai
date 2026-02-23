@@ -16,6 +16,7 @@ const Dashboard = () => {
         { icon: '💬', label: content.dashboard.quick_actions.ai_question, path: '/chat', color: 'bg-primary-purple/10 text-primary-purple hover:bg-primary-purple hover:text-white' },
     ]
 
+    //dummy data
     const recentMemories = [
         {
             id: 1,
@@ -68,7 +69,7 @@ const Dashboard = () => {
             <header className="mb-8 text-center md:text-left flex justify-between items-end">
                 <div>
                     <h1 className="text-2xl md:text-3xl font-bold mb-2 bg-gradient-to-r from-primary-coral to-accent-rose bg-clip-text text-transparent">
-                        {content.app.welcome}
+                        {content.app.welcome}👋
                     </h1>
                     <p className="text-lg text-gray-500">{content.app.greeting}</p>
                 </div>

@@ -46,6 +46,6 @@ export const layoutStyles = {
     profileSettingsIcon: "text-gray-300 text-xs",
 
     // Main Content
-    main: "flex-1 md:ml-[280px] min-h-screen transition-all duration-500",
+    main: "flex-1 min-h-screen transition-all duration-500",
     contentWrapper: "w-full max-w-[1600px] mx-auto",
 };
