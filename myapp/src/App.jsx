@@ -3,6 +3,7 @@ import './App.css'
 import Layout from './components/Layout'
 import Dashboard from './pages/Dashboard'
 import Letter from './pages/Letter'
+import Question from './pages/Question'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/letter" element={<Letter />} />
+          <Route path="/question" element={<Question />} />
         </Routes>
       </Layout>
     </Router>

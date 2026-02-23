@@ -95,7 +95,7 @@ profile:
       - "주간 리포트"
 
 question:
-  title: "오늘의 질문 💬"
+  title: "오늘의 질문 "
   subtitle: "매일 하나의 질문으로 서로의 마음을 알아가요"
   blind_msg: "🔒 내가 답변을 남겨야 상대방의 답변을 볼 수 있어요 (Blind System)"
   submit_btn: "답변 남기고 상대방 답변 보기 💌"
