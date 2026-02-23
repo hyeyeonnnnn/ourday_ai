@@ -5,15 +5,16 @@ import Dashboard from './pages/Dashboard'
 
 function App() {
 
-  return (  
+  return (
     <Router>
       <Layout>
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/letter" element={<Letter />} />
         </Routes>
       </Layout>
     </Router>
-)
+  )
 }
 
 export default App

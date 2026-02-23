@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useMutation } from '@tanstack/react-query';
-
+import content from '../content.yaml'
 
 const Letter = () => {
     const anniversaries = [
@@ -17,8 +17,17 @@ const Letter = () => {
     ]
 
     return (
-        <div>
+        <div className='max-w-7xl mx-auto px-4 py-8 fade-in'>
+            <header className="mb-12 text-center">
+                <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary-coral to-accent-rose bg-clip-text text-transparent">
+                    {content.letter.title}
+                </h1>
+                <p className="text-lg text-gray-500">{content.letter.subtitle}</p>
+            </header>
 
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+
+            </div>
         </div>
     )
 }

@@ -4,7 +4,7 @@ import content from '../content.yaml'
 const Dashboard = () => {
 
     const nextAnniversary = {
-        name: '기념일 이름',
+        name: '두근 두근 800일',
         date: '2026-03-01',
         daysLeft: 10,
     }
@@ -67,7 +67,7 @@ const Dashboard = () => {
             {/* Header */}
             <header className="mb-8 text-center md:text-left flex justify-between items-end">
                 <div>
-                    <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-primary-coral to-accent-rose bg-clip-text text-transparent">
+                    <h1 className="text-2xl md:text-3xl font-bold mb-2 bg-gradient-to-r from-primary-coral to-accent-rose bg-clip-text text-transparent">
                         {content.app.welcome}
                     </h1>
                     <p className="text-lg text-gray-500">{content.app.greeting}</p>
@@ -78,8 +78,8 @@ const Dashboard = () => {
                 </div>
             </header>
 
-              {/* Top Section: Hero + Emotion Weather */}
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-8">
+            {/* Top Section: Hero + Emotion Weather */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-8">
                 {/* Anniversary Countdown - Hero Card */}
                 <div className="lg:col-span-8 relative group overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-primary-coral to-accent-rose shadow-xl shadow-primary-coral/30 hover:shadow-2xl hover:shadow-primary-coral/40 transition-all duration-500">
                     <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
@@ -109,8 +109,8 @@ const Dashboard = () => {
                 </div>
 
 
-             {/* Right Column: Emotion Weather + Quick Actions */}
-             <div className="lg:col-span-4 flex flex-col gap-6">
+                {/* Right Column: Emotion Weather + Quick Actions */}
+                <div className="lg:col-span-4 flex flex-col gap-6">
                     {/* Emotion Weather Widget */}
                     <div className="bg-white rounded-[2.5rem] p-8 shadow-card border border-white/50 relative overflow-hidden group hover:shadow-float transition-all duration-300">
                         <div className="absolute top-0 right-0 p-6 opacity-10 text-9xl group-hover:scale-110 transition-transform duration-500 select-none">
@@ -136,8 +136,8 @@ const Dashboard = () => {
                         </div>
                     </div>
 
-                     {/* Quick Actions (Compact) */}
-                     <div className="grid grid-cols-2 gap-3 flex-1">
+                    {/* Quick Actions (Compact) */}
+                    <div className="grid grid-cols-2 gap-3 flex-1">
                         {quickActions.map((action, index) => (
                             <Link
                                 key={index}
@@ -153,7 +153,7 @@ const Dashboard = () => {
                     </div>
                 </div>
             </div>
-            
+
             {/* Middle Section: AI Daily Question */}
             <section className="mb-12">
                 <div className="bg-gradient-to-r from-secondary-cream to-white rounded-[2rem] p-1 border border-white shadow-card">
@@ -168,7 +168,7 @@ const Dashboard = () => {
                                 </span>
                                 <span className="text-gray-400 text-sm">#101번째 질문</span>
                             </div>
-                            <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 whitespace-pre-line leading-tight">
+                            <h3 className="text-1xl md:text-2xl font-bold text-gray-800 mb-4 whitespace-pre-line leading-tight">
                                 {dailyQuestion.question}
                             </h3>
                             <div className="flex items-center gap-4 justify-center md:justify-start">
@@ -232,7 +232,7 @@ const Dashboard = () => {
                     ))}
                 </div>
             </section>
-        </div>  
+        </div>
     )
 }
 

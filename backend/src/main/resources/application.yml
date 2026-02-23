@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe # Oracle DB URL (본인 설정에 맞게 수정 필요)
+    username: YOUR_USERNAME                  # DB 사용자명
+    password: YOUR_PASSWORD                  # DB 비밀번호
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.ourday.api.model
+  configuration:
+    map-underscore-to-camel-case: true       # DB snake_case를 Java camelCase로 매핑
+
+logging:
+  level:
+    com.ourday.api.mapper: debug             # SQL 로그 출력

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ourday.api.mapper.AnniversaryMapper">
+
+    <select id="selectAllByCoupleId" resultType="com.ourday.api.model.Anniversary">
+        SELECT 
+            ANNIVERSARY_ID,
+            COUPLE_ID,
+            TITLE,
+            ANNIVERSARY_DATE,
+            IS_REPEATED,
+            CATEGORY
+        FROM ANNIVERSARIES
+        WHERE COUPLE_ID = #{coupleId}
+        ORDER BY ANNIVERSARY_DATE ASC
+    </select>
+
+    <insert id="insertAnniversary" parameterType="com.ourday.api.model.Anniversary">
+        INSERT INTO ANNIVERSARIES (
+            ANNIVERSARY_ID,
+            COUPLE_ID,
+            TITLE,
+            ANNIVERSARY_DATE,
+            IS_REPEATED,
+            CATEGORY
+        ) VALUES (
+            ANNIVERSARY_SEQ.NEXTVAL,
+            #{coupleId},
+            #{title},
+            #{anniversaryDate},
+            #{isRepeated},
+            #{category}
+        )
+    </insert>
+
+</mapper>
